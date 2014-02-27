@@ -7,10 +7,10 @@ if($_GET['session']=='destroy')
 	unset($_SESSION);
 	}
 
-$database="clontscdb";
-$username="clontsc";
-$password="clontscm4rch";
-$host="web7.duc.auburn.edu";
+$database="REDACTED";
+$username="REDACTED";
+$password="REDACTED";
+$host="REDACTED";
 
 mysql_connect($host,$username,$password);
 @mysql_select_db($database) or die("ERROR: Unable to select database. Please contact the webmaster for details.");

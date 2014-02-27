@@ -8,10 +8,10 @@ if(!isset($_SESSION['id']) || !isset($_POST))
 	die();
 	}
 
-$database="clontscdb";
-$username="clontsc";
-$password="clontscm4rch";
-$host="web7.duc.auburn.edu";
+$database="REDACTED";
+$username="REDACTED";
+$password="REDACTED";
+$host="REDACTED";
 
 $_SESSION['test']=$_POST;
 

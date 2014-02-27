@@ -18,24 +18,24 @@ EOT;
 
 session_start();
 
-if($_SESSION['au_user_id']!="clontsc" || !isset($_POST))
+if($_SESSION['au_user_id']!="REDACTED" || !isset($_POST))
 	{
 	$_SESSION['msg']="Whoops! I don't think you accessed this page the right way... Please try again!";
 	header( 'Location: index.php?p=home' ) ;
 	die();
 	}
 	
-if($_POST['code']!="hUll4b4ll0")
+if($_POST['code']!="REDACTED")
 	{
 	$_SESSION['msg']="Wroooong password. :(";
 	header( 'Location: index.php?p=home' ) ;
 	die();
 	}
 
-$database="clontscdb";
-$username="clontsc";
-$password="clontscm4rch";
-$host="web7.duc.auburn.edu";
+$database="REDACTED";
+$username="REDACTED";
+$password="REDACTED";
+$host="REDACTED";
 
 $_SESSION['test']=$_POST;
 
